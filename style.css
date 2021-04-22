@@ -1,0 +1,108 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 35px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #283618;
+  font-size: 25px;
+  line-height: normal;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #283618;
+  font-size: 18px;
+  line-height: normal;
+}
+
+body {
+  background-color: #f7f3e9;
+  line-height: 20%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.img-squarish {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.img-card-white {
+  width: 175px;
+  border-radius: 4px;
+}
+
+.btn-blue {
+    background-color: #5f939a;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    border: 1px solid lightblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.btn-blue:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 2px 4px grey;
+  width: 600px;
+  margin: 28px auto;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #f0e3ca;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  spac
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #5f939a;
+  margin: 8px 20px;
+  text-decoration: none;
+  padding: 0;
+}
+
+.social-icon:hover {
+  color: #lightblue;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
